@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Three concentric progress rings (protein, carbs, fat) on a white disc. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,0A24,24 0 1,1 24,48A24,24 0 1,1 24,0Z" />
+    <!-- outer ring: protein, 3/4 -->
+    <path
+        android:pathData="M24,6A18,18 0 1,1 6,24"
+        android:strokeColor="#534AB7"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+    <!-- middle ring: carbs, 2/3 -->
+    <path
+        android:pathData="M24,12A12,12 0 1,1 13.6,30"
+        android:strokeColor="#BA7517"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+    <!-- inner ring: fat, 1/2 -->
+    <path
+        android:pathData="M24,18A6,6 0 1,1 24,30"
+        android:strokeColor="#D85A30"
+        android:strokeLineCap="round"
+        android:strokeWidth="4" />
+</vector>
